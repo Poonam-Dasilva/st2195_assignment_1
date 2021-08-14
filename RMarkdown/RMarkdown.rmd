@@ -1,0 +1,34 @@
+---
+title: "R Markdown"
+author: "Poonam Dasilva"
+date: "12/08/2021"
+output: html_document
+---
+
+```{r setup, include =FALSE}
+knitr::opts_chunk$set(python.reticulate = FALSE)
+```
+
+## Exercise 4
+
+This is an R Markdown document, that contains code for **R** and **Python** to print integers from 1 to 10.  
+
+**R**
+
+```{r integers}
+for (x in 1:10) {
+  print(x)
+}
+```
+
+**Python**
+```{python numbers}
+for x in range(1,11):
+    print(x)
+```    
+
+**Reference**
+Codes - [W3Schools](https://www.w3schools.com/)
+R setup - [RStudio GitHub](https://rstudio.github.io/reticulate/articles/r_markdown.html)
+
+That's all for the first block of Programming for Data Science.
